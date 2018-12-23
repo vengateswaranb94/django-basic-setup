@@ -1,17 +1,11 @@
-# django-basic-setup
-Implemented basic setup django framwork like creating routes, integrated static files (css &amp; js) and models
-
-# Superuser Credentials
-Username: admin
-Password: admin@123456
-
  # Django uses sqlite db as default
     
     ## To install sqlite browser
         sudo apt-get install sqlitebrowser
-    ## To open sqlite browser (type in terminal)
+    ## To open sqlite browser
         sqlitebrowser
 
+******************************************
 # To Start New Project in Django
 
     django-admin startproject <prj_name>
@@ -40,5 +34,6 @@ Password: admin@123456
 # To Create A New Admin User
 
   python manage.py createsuperuser
+
 
 

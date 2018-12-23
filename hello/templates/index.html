@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample Hello Page</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/materialize.min.css' %}">
+    <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+</head>
+
+<body>
+    <h1 class="blue-text text-darken-2">Hello Route Works</h1>
+    {% for temp in data %}
+    {{ temp.title }}<br>
+    {{ temp.content }}<br>
+    {{ temp.date }}
+    {% endfor %}
+</body>
+
+</html>
