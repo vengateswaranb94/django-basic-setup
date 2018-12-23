@@ -20,4 +20,5 @@ from hello import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', views.index, name='index'),
+    path('hellojson/', views.hellojson, name='hellojson'),
 ]
